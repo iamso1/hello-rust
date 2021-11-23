@@ -7,8 +7,9 @@ learn rust with docker-compose
 ```bash
  start.sh
 
- cargo new {project}
- cd {project}
+ cd projects/
+ cargo new $project_name
+ cd $project_name
  cargo run
 ```
 
